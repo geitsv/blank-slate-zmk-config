@@ -125,7 +125,7 @@
         BT_PWR_layer {
             label = "BT_PWR";
             bindings = <
-&hw_soft_off  &none            &none           &none           &none           &none           &none      &none    &none       &none       &none           &bt BT_CLR
+&soft_off  &none            &none           &none           &none           &none           &none      &none    &none       &none       &none           &bt BT_CLR
 &trans     &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &none      &none    &none       &none       &none           &trans
 &trans     &none            &none           &none           &none           &none           &none      &none    &none       &none       &sys_reset      &trans
 #ifdef TBLE_DUAL_2U
